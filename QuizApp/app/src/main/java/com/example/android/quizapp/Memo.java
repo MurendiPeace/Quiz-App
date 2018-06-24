@@ -59,7 +59,7 @@ public class Memo extends AppCompatActivity {
     public void submitQuiz(View view) {
 
 
-        Intent sendEmail = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "murendinemakundani@gmail.com", null));
+        Intent sendEmail = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "murendinemakundani4@gmail.com", null));
         sendEmail.putExtra(Intent.EXTRA_SUBJECT, "Quiz about South Africa");
         sendEmail.putExtra(Intent.EXTRA_TEXT, "Quiz submitted");
 
